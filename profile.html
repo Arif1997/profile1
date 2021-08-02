@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Profile</title>
+
+        <meta name="description" content="Sell your goods here">
+        <meta name="keywords" content="Sell, goods, growceries, books, furniture, bike,">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/796464d899.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="topnav">
+                    <button onclick="Market.af" class="logo" ><h4><b>brand.af</b></h4></button>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> <b>Address</b></a>
+                    <div> 
+                        <form action="#" class="search" >
+                                <input type="text" name="Search" placeholder="Search..." class="box">
+                                <button type="submit" class="icon"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <span class="rightside">
+                        <a href="#"><b>Language</b></a>
+                        <a href="#"><b>Login</b></a>
+                        <a href="#"><b>Order</b></a>
+                    </span>
+                </div>
+            </nav>
+            <div class ="navmenue">
+                    <a href="main.html" class="home">Home</a>   <!-- This is Home button-->
+                    <a href="#">Car</a>
+                    <a href="#">Bike</a>
+                    <a href="#">Mobile</a>
+                    <a href="#">Electronics & Appliances</a>
+                    <a href="#">Furniture</a>
+                    <a href="#">Fashion</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+            </div>
+        </header>
+        <div class="container">
+            <div id="update-prof"><h3>Update Profile</h3></div>
+            <div class="inputs">
+                <h4>Basic information</h4>
+                <input type="text" placeholder="First name" maxlength="15">
+                <input type="text" placeholder="Last name" maxlength="15">
+                <input type="text" placeholder="About me (optional)" max="200" style="height: 100px;">
+                <div class="textarea">
+                    <span class="hd2">
+                        <h2>Why it is important?</h2>
+                    </span>
+                    <div>
+                        <p>
+                            OLX is built on trust. Help other people get to know you. Tell them about the things you like. Share your favorite brands, books, movies, shows, music, food. And you will see the results…
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <style>
+                    .contact{
+                        border-bottom: 2px solid darkslategray;
+                        height: 250px;
+                        width: auto;
+                    }
+                </style>
+                <h3>Contact Information</h3>
+                <div class="number">
+                    <input type="number" placeholder="+93" >
+                </div>
+                <input type="email" placeholder="Email">
+                <div class="verify-note">
+                    <p>You have verified your phone. It is important to allow us to securely communicate with you.</p>
+                <style>
+                    .verify-note{
+                        position: relative;
+                        left:530px;
+                        bottom: 170px;
+                        width: 350px;
+                    }
+                </style>
+                </div>
+                <div class="email-note">
+                    <p>We won't reveal your email to anyone else nor use it to send you spam</p>
+                    <style>
+                        .email-note{
+                            position: relative;
+                            left:530px;
+                            bottom: 125px;
+                            width: 350px;
+                        }
+                    </style>
+                </div>
+            </div>
+            <div class="optional-info">
+                <h3>Optional Information</h3>
+                <div>
+                    <h5>Facebook</h5>
+                    <p>Sign in with Facebook and discover your trusted connections to buyers</p>
+                </div>
+                <div>
+                    <h5>Google</h5>
+                    <p>Connect your OLX account to your Google account for simplicity and ease.</p>
+                </div>
+                <div class="face-connect">
+                    <a href="https://www.facebook.com" style="color:aliceblue"> Connect Facebook</a>
+                    <style>
+                        .face-connect{
+                            border: 3px solid black;
+                            background:rgb(20, 20, 87);
+                            Color: black;
+                            text-align: center;
+                            font-size: x-large;
+                            width: 250px;
+                            height: 30px;
+                            position: relative;
+                            bottom: 130px;
+                            left: 500px;
+                        }
+                    </style>
+                </div>
+                <div class="ggl-connect">
+                    <a href="https://www.facebook.com" style="color:aliceblue">Connect Google</a>
+                    <style>
+                        .ggl-connect{
+                            color:rgb(131, 224, 162)
+                            border: 3px solid black;
+                            background:rgb(20, 20, 87);
+                            Color: black;
+                            text-align: center;
+                            font-size: x-large;
+                            width: 250px;
+                            height: 30px;
+                            position: relative;
+                            bottom: 80px;
+                            left: 500px;
+                        }
+                    </style>
+                </div>
+            </div>
+            <div>
+                <div class="discard">
+                    <a href="#" style="color:black" >Discard</a>
+                    <style>
+                        .discard{
+                            font-size: x-large;
+                            font-weight: 600;
+                            text-decoration-line: underline;
+                            position: relative;
+                            bottom: 20px;
+                        }
+                    </style>
+                </div>
+                <div >
+                    <button class="changes">Save Changes</button>
+                    <style>
+                        .changes{
+                            background: rgb(131, 224, 162);
+                            float: right;
+                            font-size: x-large;
+                            font-weight: 600;
+                            border: 3px solid black;
+                            position: relative;
+                            bottom: 50px;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h2>Edit Profile</h2>
+            <P>Profile Picture</P>
+            <Button>VIEW PROFILE</Button>
+        </div>
+
+        <style>
+            header{
+    margin-bottom:0;
+    height:10%; 
+    width:100%;
+    background-color:#343430;
+    }
+            .topnav{
+    background-color: rgb(131, 224, 162);
+    margin: 0px 0px;
+    border-bottom: 3px solid rgb(245, 88, 88);
+    border-style: groove;
+    padding-bottom: 5px;
+    line-height: 0cm;
+    }
+.topnav a{
+    font-size: larger;
+    }
+.rightside{
+    float: right;
+    margin-top: -25px;
+    text-decoration:wavy;
+    padding-top: 8px;
+    }
+
+.search {
+    margin-top: -42px;
+    width: 480px;
+    position: relative;
+    left: 30%;
+    top: -2px;    
+    }
+.box{
+    width: 350px;
+    margin: 0;
+    padding: 8px;
+    }
+.icon{
+    margin-inline-start: -35px;
+    padding: 8px;
+    }
+.logo{
+    padding-top: 0%;
+    border: none;
+    padding-bottom: 0cm;
+    }
+
+.navmenue{
+    background-color: rgb(147, 227, 229);
+    padding: 5px;
+    place-content: unset;
+    text-align: center;
+    font-weight: bold;
+    }
+a{
+    text-decoration: none;
+    margin-right: 16px;
+    }
+.container{
+    border: 2px solid rgb(20, 20, 87);
+    width: 900px;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    padding: 2px 5px;
+    padding-right: 15px;
+}
+#update-prof{
+    border-bottom: 2px solid black;
+}
+
+ .inputs input{
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 4px;
+    width: 450px;
+    height: 40px;
+    margin:  10px 20px;
+    
+}
+body{
+    width: 100%;
+    margin: 0px;
+}
+.inputs{
+    border-bottom: 2px solid rgb(31, 9, 9);
+    height: 350px;
+
+}
+.contact input{
+    border: 2px solid rgb(31, 7, 7);
+    border-radius: 5px  ;
+    margin: 20px 10px;
+    width: 500px;
+    height: 40px;
+}
+
+.textarea{
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    display: block;
+    position: relative;
+    bottom: 230px;
+    left: 550px;
+    flex: 0 0 33.3333333%;
+
+}
+.sidebar{
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    
+}
+.sidebar button{
+    border: 2px solid black;
+    background: royalblue;
+    font-weight: 900;
+    height: 40px;
+    width: 250px;
+    position: relative;
+}
+
+
+
+        </style>
+    </body>
+</html>
